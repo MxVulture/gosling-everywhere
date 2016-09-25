@@ -1,0 +1,27 @@
+{
+
+   "manifest_version": 2,
+
+   "background": {
+      "persistent": false,
+      "scripts": [ "realhero.js", "goslingew.js" ]
+   },
+
+   "browser_action": {
+      "default_icon": "img/icon_48.png",
+      "default_title": "Gimme Ryan!!!"
+   },
+
+   "description": "Replaces all images in the current page with pictures of Ryan Gosling. :D",
+   "homepage_url": "https://MxVulture.github.io/gosling-everywhere",
+
+   "icons": {
+      "128": "img/icon_128.png",
+      "16": "img/icon_16.png",
+      "48": "img/icon_48.png"
+   },
+
+   "name": "Gosling Everywhere!",
+   "permissions": [ "activeTab" ],
+   "version": "0.1"
+}
